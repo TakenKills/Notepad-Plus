@@ -1,71 +1,42 @@
-# Documatic presents to you our 2nd hackathon!!
+# Documatic Hackathon (TS, JS, PY)
 
-### Table Of Content 📃
-
-- [What's a hackathon?](https://github.com/DocumaticAI/Hackathon#whats-a-hackathon--)
-- [How to participate](https://github.com/DocumaticAI/Hackathon#cool-how-do-i-participate-)
-- [Topic](https://github.com/DocumaticAI/Hackathon#whats-the-topic-)
-- [Rules](https://github.com/DocumaticAI/Hackathon#rules-)
-- [Criteria of Judgement](https://github.com/DocumaticAI/Hackathon#criteria-of-judgement-)
-- [Prizes](https://github.com/DocumaticAI/Hackathon#prizes-)
-- [Support/dispute/inquiry](https://github.com/DocumaticAI/Hackathon/blob/master/README.md#support--dispute--inquiry-)
-<br>
-
-## What's a hackathon?  <img src = "https://cdn.discordapp.com/emojis/794889013138948126.webp?size=128&quality=lossless" alt = "hmmm" width=40>
-
-
-We'll give you a topic and you have to create projects on it, The best ones will win!! You can have upto 3 collaborators (teammates) to help you with it.
+## This is a project for the [Documatic Hackathon](https://github.com/DocumaticAI/Hackathon)
 
 <br>
-
-## Cool!! How do I participate? <img src = "https://cdn.discordapp.com/emojis/867721860832952341.webp?size=128&quality=lossless" alt = "kool" width=40>
-
-Steps on how to participate:
-
-- Join our [community server](https://discord.gg/BcbY3GXtUZ) and provide the following details in team-details channel: language in use, real/discord name, email, github username, teammates
-- Fork this repository
-- create your project on your fork inside the [src folder](https://github.com/DocumaticAI/Hackathon/tree/master/src)
-- create a pull request with the [template](https://github.com/DocumaticAI/Hackathon/blob/master/.github/pull_request_template.md)
-
 <br>
 
-## What's the topic? <img src = "https://cdn.discordapp.com/emojis/765402987824676885.webp?size=128&quality=lossless" alt = "konfused" width=40>
+<h1 align="center">Notepad Plus ( Python ) </h1>
 
-there isnt one! Go crazy!! make anything you want, just make it unique. ***The project should be made only using js/ts or python. html/css are allowed.***
+If you've ever used notepads, you know that they're pretty useful interims of taking notes.
+But you also would know that notepads are pretty frustrating to organize.
 
-<br>
+So... I made something along the lines of a "notepad" in python.
 
-## Rules <img src = "https://cdn.discordapp.com/emojis/816834632712061010.webp?size=128&quality=lossless" alt = "rools" width=40>
+## Installation
 
-- The project should be made only using js/ts or python. html/css are allowed.
-- All projects must be fresh, reusing old code is not allowed.
-- All teams should be registered in our discord server. Provide the following details in team-details channel: language in use, real name, email, github username, teammates
-- Python projects are required to use Documatic tool to document their code. [How to use Documatic Tool](https://github.com/DocumaticAI/Hackathon/blob/master/examples/technical-docs.md)
-- All projects are required to use doculog tool to document their commits. [How to use Doculog](https://github.com/DocumaticAI/Hackathon/blob/master/examples/doculog.md)
-- All projects are supposed to be submitted by 18th January, 00:00 EST time.
-- No copying someone else's code, we can check the time on each fork's commit history to determine who copied and will be disqualified.
+To install the application, you'll need to install the [application](application/main) directory. mainly the "main" folder.
 
-<br>
+and to launch the application all you need to do is launch the **"main.exe"** file.
 
-## Criteria of judgement <img src = "https://cdn.discordapp.com/emojis/739624371429179483.webp?size=128&quality=lossless" alt = "monkeyjudge" width=40>
+## Features
 
-Projects will be marked on the bases of creativity, uniqueness, functionality, overall code quality and file structure.
+Everything is pretty self-explanatory when it comes to this app.
 
-<br>
+* You can import an existing file into the app. (Only .txt supported)
+* You can create files within the app. (creates ".txt" files)
+* You can delete multiple files at once. making it simple to organize your files.
+* there is a small text editor that you can use to edit the files.
+* there is a password system inplace to protect your files.
+* You can rename files.
 
-## Prizes <img src = "https://cdn.discordapp.com/emojis/917857933864370196.gif?size=128&quality=lossless" alt = "geft" width=40>
+## Pull requests
 
-Ofc!! No hackathon is complete without rewarding the people participating in it :)
+As the Documatic hackathon's deadline is 20th January,
+I will look over pull requests after that deadline is met.
 
-
- - 1st place = 100$ <br>
- - 2nd place = 60$ <br>
- - 3rd place = 40$ <br>
- - 4th place = 25$ <br>
- - 5th place = 25$ <br>
-
-<br>
-
-## support / dispute / inquiry <img src = "https://cdn.discordapp.com/emojis/785065330526912563.webp?size=128&quality=lossless" alt = "geft" width=40>
-
-Join our Discord Server or open an issue on this repository, you're more likely to recieve a faster answer on the server.
+## Credits
+- [Takenkills](https://github.com/TakenKills) © 2022 - Writing the code
+- [Laptop](https://en.wikipedia.org/wiki/Laptop) © 2016 - Laptop.
+- [Chair](https://en.wikipedia.org/wiki/Chair) © 2021 - Keeping my ass comfortable.
+- [Keyboard](https://en.wikipedia.org/wiki/Keyboard) © 2021 - Typing (did most of the work)
+- [Mouse](https://en.wikipedia.org/wiki/Mouse) © 2019 - Clicking and Scrolling (also did a lot of work.)
