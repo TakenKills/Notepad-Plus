@@ -7,16 +7,14 @@
 
 <h1 align="center">Notepad Plus ( Python ) </h1>
 
-If you've ever used notepads, you know that they're pretty useful interims of taking notes.
+If you've ever used notepads, you know that they're pretty useful in terms of taking notes.
 But you also would know that notepads are pretty frustrating to organize.
 
 So... I made something along the lines of a "notepad" in python.
 
 ## Installation
 
-To install the application, you'll need to install the [application](application/main) directory. mainly the "main" folder.
-
-and to launch the application all you need to do is launch the **"main.exe"** file.
+You can fork the repository, and compile src/main.py using python3.
 
 ## Features
 
