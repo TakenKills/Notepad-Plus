@@ -16,7 +16,7 @@ def main():
     icon = PhotoImage(file=join(dirname(__file__), "assets\\notepad+.png"))
     window.iconphoto(False, icon)
 
-    # Password(window)
+    Password(window)
     Master(window)
 
     window.mainloop()
