@@ -3,10 +3,11 @@ from classes.Widgets import Widgets
 from os.path import join, getsize
 from tkinter import Toplevel, Tk, StringVar
 from tkinter.ttk import Button, Label
+from sys import exit as exit_system;
 
 def encrypt(password):
     import hashlib
-    return hashlib.sha256(password.encode()).hexdigest()
+    return hashlib.sha256(password.encode("utf-8")).hexdigest()
 
 def create_label(parent: Toplevel, text: str):
     label = Label(parent, text=text)
@@ -51,7 +52,7 @@ class Password:
             self.entry.focus_set()
 
             error = Helper.show_error("Wrong password!", self.root)
-            error.after(1000, error.destroy)
+            error.after(750, error.destroy)
 
             self.entry.focus_set()
 
@@ -59,8 +60,13 @@ class Password:
 
             if self.tries >= 3:
                 error = Helper.show_error("You have entered the wrong password 3 times. Exiting...\n", self.root)
-                self.top.after(1500, lambda: self.top.destroy() and self.root.destroy())
-                error.after(1500, error.destroy)
+                self.top.after(1000, lambda: self.destroy_windows())
+
+    def destroy_windows(self):
+        self.top.destroy()
+        self.root.quit()
+        self.root.destroy()
+        exit_system()
 
     def get_pass(self) -> str | StringVar:
         directory = Helper.get_notepads_directory()
