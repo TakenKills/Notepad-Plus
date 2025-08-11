@@ -1,0 +1,15 @@
+# (Program)
+notepads
+src/application
+
+src/__pycache__/
+__pycache__/
+
+# Environments
+*.env
+*.venv
+venv/
+
+# Project management
+
+TODO.txt
