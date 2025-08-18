@@ -16,7 +16,7 @@ So... I made something along the lines of a "notepad organizer" in python.
 
 ## Installation
 
-You can fork the repository, and compile src/main.py using python.
+You can fork the repository, and compile main.py using python.
 
 ## Features
 
